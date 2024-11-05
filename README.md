@@ -1,5 +1,8 @@
 [Home Page](https://tziesemer.github.io)
 
+##Project files
+Here is the python file that utilized mongopy to fill the database and link it to display results: [PYCRUD.py](docs/PYCRUD.py)
+
 
 <!--How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 **I found that modularization is usually the way to go if you want easy to reuses and read code. It creates sections of code that can be worked on and tested individually so that finding where an issue is becomes faster and when you need to make a change it is  less likely to mess up other functions. The CRUD module is very simple so any data sets that I wanted to use with even different database types could be possible with minor changes or with no changes I could use a different dashboard type application by simply  creating the appropriate callbacks to the existing crud functions then parse the data returned from there.**
